@@ -1,0 +1,42 @@
+"""
+Employee Management System
+
+Base Class: Employee (name, salary).
+
+Subclasses: Manager, Developer, Intern.
+
+Use polymorphism to calculate bonuses differently for each role
+"""
+
+
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def calculate_bonus(self):
+        return self.salary * 0.05
+
+
+class Manager(Employee):
+    def calculate_bonus(self):
+        return self.salary * 0.1
+
+
+class Developer(Employee):
+    def calculate_bonus(self):
+        return self.salary * 0.08
+
+
+class Intern(Employee):
+    def calculate_bonus(self):
+        return self.salary * 0.2
+
+
+# Example output
+emp1 = Manager("Shashank", 50000)
+emp2 = Developer("Suman", 30000)
+emp3 = Intern("Avinash", 20000)
+
+for emp in [emp1, emp2, emp3]:
+    print(f"{emp.name} ----- Bonus: ${emp.calculate_bonus():.2f}")
