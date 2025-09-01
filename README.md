@@ -1,1 +1,1 @@
-# -OOP-s-concept-Mini-Projects---Python
+# OOP's concept Mini-Projects---Python
