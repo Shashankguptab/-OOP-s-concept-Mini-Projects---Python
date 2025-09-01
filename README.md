@@ -10,10 +10,14 @@ I Have covered all the below topics:
 6. Abstraction
 
 🛠️ Tech Stack
+
+
 **Language**: Python  
 **Paradigm**: Object-Oriented Programming 
 
 Using Python I have created some Mini Projects:
+
+
 1️⃣ Bank Account System
 - **Concepts Used**: Encapsulation  
 - Create a bank account with deposit, withdraw, and balance inquiry features.  
