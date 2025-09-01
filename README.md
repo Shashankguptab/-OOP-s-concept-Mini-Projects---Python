@@ -28,7 +28,7 @@ Using Python I have created some Mini Projects:
 
 4️⃣ Employee Management System
 - **Concepts Used**: Inheritance, Polymorphism  
-- Different employee types (`Manager`, `Developer`, `Intern`) get different bonuses.  
+- Different employee types (Manager, Developer, Intern) get different bonuses.  
 
 5️⃣ E-commerce Cart System
 - **Concepts Used**: Composition  
